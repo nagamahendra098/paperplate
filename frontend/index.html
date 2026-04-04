@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GreenLeaf Paper Plates — Pure. Eco. Crafted.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav">
+    <div class="nav-logo">🍃 GreenLeaf</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#products" onclick="toggleMenu()">Products</a>
+    <a href="#process" onclick="toggleMenu()">Process</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero">
+    <div class="hero-texture"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Est. 2008 · Tirupati, India</span>
+      <h1 class="hero-title">Paper Plates<br><em>Crafted with<br>Purpose.</em></h1>
+      <p class="hero-sub">Eco-conscious, food-safe, and built for every occasion — from weddings to warehouses.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn-primary">View Products</a>
+        <a href="#contact" class="btn-ghost">Request Quote →</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="plate-stack">
+        <div class="plate p1"></div>
+        <div class="plate p2"></div>
+        <div class="plate p3"></div>
+        <div class="plate p4"></div>
+        <div class="plate-label">100% Biodegradable</div>
+      </div>
+    </div>
+    <div class="scroll-hint">↓ scroll</div>
+  </section>
+
+  <!-- ─── STATS ─── -->
+  <section class="stats">
+    <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Years in Industry</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-num">2Cr+</span><span class="stat-label">Plates Produced / Month</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Happy Clients</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-num">18</span><span class="stat-label">States Served</span></div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="about" id="about">
+    <div class="about-label">About the Factory</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>A Legacy of <em>Sustainable</em> Manufacturing</h2>
+        <p>Founded in 2008, GreenLeaf Paper Plates has grown from a small press unit in Tirupati into one of South India's most trusted paper plate manufacturers. We combine traditional craftsmanship with modern automated machinery to deliver plates that are strong, hygienic, and completely eco-friendly.</p>
+        <p>Our 12,000 sq. ft. plant runs three shifts a day, ensuring high-volume output without compromising on quality. Every plate is tested for grease resistance, structural integrity, and food safety before it reaches our customers.</p>
+        <div class="about-pills">
+          <span>ISO 9001:2015 Certified</span>
+          <span>FSSAI Approved</span>
+          <span>BIS Compliant</span>
+          <span>Zero Effluents</span>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="info-card">
+          <div class="info-icon">🏭</div>
+          <h3>Factory Location</h3>
+          <p>Plot No. 47, APIIC Industrial Estate,<br>Renigunta Road, Tirupati — 517520<br>Andhra Pradesh, India</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">⚙️</div>
+          <h3>Manufacturing Capacity</h3>
+          <p>2 crore plates per month across 6 product lines using fully automated hydraulic press machines.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🌿</div>
+          <h3>Raw Materials</h3>
+          <p>Virgin wood pulp paper, recycled board, areca leaf composites — all sourced from certified sustainable suppliers.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📦</div>
+          <h3>Export & Logistics</h3>
+          <p>Pan-India delivery with a 5–7 day TAT. Export-ready packaging for UAE, UK, and Southeast Asia markets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PRODUCTS ─── -->
+  <section class="products" id="products">
+    <div class="section-header">
+      <div class="section-tag">Our Range</div>
+      <h2>Products Built for <em>Every Need</em></h2>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-img">🍽️</div>
+        <div class="product-info">
+          <h3>Round Dinner Plates</h3>
+          <p>Sizes: 7", 9", 12" | Available in 2-ply and 3-ply. Perfect for catering, hotels, and wedding banquets.</p>
+          <div class="product-tag">Best Seller</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🥗</div>
+        <div class="product-info">
+          <h3>Compartment Plates</h3>
+          <p>3-section design. Ideal for thali meals, school canteens, and food delivery operations.</p>
+          <div class="product-tag">High Volume</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">☕</div>
+        <div class="product-info">
+          <h3>Dona Cups & Bowls</h3>
+          <p>Leak-proof, heat-tolerant bowls for curries, desserts, and chaats. Sizes from 50ml to 350ml.</p>
+          <div class="product-tag">Trending</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🎂</div>
+        <div class="product-info">
+          <h3>Printed Custom Plates</h3>
+          <p>Brand your plates with logo, event name, or custom art. MOQ: 10,000 units. 5-day delivery.</p>
+          <div class="product-tag">Custom</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🍕</div>
+        <div class="product-info">
+          <h3>Square & Rectangle Trays</h3>
+          <p>Flat and deep tray options for fast food stalls, bakeries, and institutional kitchens.</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🌱</div>
+        <div class="product-info">
+          <h3>Areca Leaf Plates</h3>
+          <p>100% natural, compostable palm leaf plates — zero chemical processing, premium quality.</p>
+          <div class="product-tag">Eco Premium</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROCESS ─── -->
+  <section class="process" id="process">
+    <div class="section-header light">
+      <div class="section-tag">How We Work</div>
+      <h2>From Pulp to <em>Plate</em></h2>
+    </div>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Raw Material Sourcing</h3>
+        <p>Certified sustainable virgin pulp and recycled paperboard procured from verified suppliers.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Sheet Preparation</h3>
+        <p>Paper sheets cut, laminated, and coated with food-safe PE lining for grease resistance.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>Hydraulic Pressing</h3>
+        <p>Automated 200-ton presses shape each plate at precise temperature and pressure settings.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h3>QC & Packaging</h3>
+        <p>Each batch tested for strength and food safety. Packed in shrink-wrap bundles of 25/50/100.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="contact-section" id="contact">
+    <div class="contact-wrapper">
+      <div class="contact-left">
+        <div class="section-tag">Reach Out</div>
+        <h2>Want to Know More?<br><em>Let's Talk.</em></h2>
+        <p>Whether you're a wholesaler, event planner, or running a food business — we'd love to hear from you. Fill in the form and our team will reach out within 24 hours.</p>
+        <div class="contact-info-list">
+          <div class="ci">📞 <span>+91 98765 43210</span></div>
+          <div class="ci">✉️ <span>nagamahendram098@gmail.com</span></div>
+          <div class="ci">🕐 <span>Mon–Sat, 9AM – 6PM IST</span></div>
+          <div class="ci">📍 <span>Tirupati, Andhra Pradesh</span></div>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input type="text" id="name" placeholder="e.g. Ravi Kumar" autocomplete="name"/>
+            <span class="err" id="nameErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Mobile Number <span class="req">*</span></label>
+            <input type="tel" id="phone" placeholder="10-digit mobile number" maxlength="10" autocomplete="tel"/>
+            <span class="err" id="phoneErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" placeholder="you@example.com" autocomplete="email"/>
+            <span class="err" id="emailErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="location">Location / City <span class="req">*</span></label>
+            <input type="text" id="location" placeholder="e.g. Chennai, Tamil Nadu" autocomplete="address-level2"/>
+            <span class="err" id="locationErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" rows="3" placeholder="Tell us what you need — product type, quantity, delivery location..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn" id="submitBtn">
+            <span id="btnText">Send Enquiry →</span>
+            <span id="btnLoader" style="display:none">Sending…</span>
+          </button>
+        </form>
+
+        <!-- Success toast -->
+        <div class="toast" id="toast">
+          <span class="toast-icon">✅</span>
+          <div>
+            <strong>Message Sent!</strong>
+            <p>Check your email — we've sent a confirmation. Our team will reach out shortly.</p>
+          </div>
+        </div>
+        <div class="toast toast-err" id="toastErr">
+          <span class="toast-icon">❌</span>
+          <div>
+            <strong>Something went wrong</strong>
+            <p id="errMsg">Please try again later.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">🍃 GreenLeaf Paper Plates</div>
+        <p>Sustainable. Reliable. Made in India.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="mailto:nagamahendram098@gmail.com">nagamahendram098@gmail.com</a>
+        <a href="tel:+919876543210">+91 98765 43210</a>
+        <span>Tirupati, AP — 517520</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 GreenLeaf Paper Plates Pvt. Ltd. All rights reserved.</span>
+      <span>Designed & Deployed with ♥ on AWS</span>
+    </div>
+  </footer>
+
+  <script>
+    // ─── NAV SCROLL ───
+    window.addEventListener('scroll', () => {
+      document.querySelector('.nav').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+
+    // ─── SMOOTH SCROLL ───
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // ─── SCROLL REVEAL ───
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.product-card, .step, .info-card, .stat').forEach(el => observer.observe(el));
+
+    // ─── FORM VALIDATION & SUBMIT ───
+    const API_BASE = window.location.hostname === 'localhost'
+      ? 'http://localhost:8080'
+      : ''; // same domain on AWS
+
+    function validate() {
+      let ok = true;
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const location = document.getElementById('location').value.trim();
+
+      // Name
+      setErr('nameErr', '');
+      if (!name) { setErr('nameErr', 'Name is required.'); ok = false; }
+      else if (name.length < 2) { setErr('nameErr', 'Name must be at least 2 characters.'); ok = false; }
+
+      // Phone
+      setErr('phoneErr', '');
+      if (!phone) { setErr('phoneErr', 'Mobile number is required.'); ok = false; }
+      else if (!/^\d{10}$/.test(phone)) { setErr('phoneErr', 'Enter a valid 10-digit mobile number.'); ok = false; }
+
+      // Email
+      setErr('emailErr', '');
+      const emailRx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email) { setErr('emailErr', 'Email is required.'); ok = false; }
+      else if (!emailRx.test(email)) { setErr('emailErr', 'Enter a valid email address.'); ok = false; }
+
+      // Location
+      setErr('locationErr', '');
+      if (!location) { setErr('locationErr', 'Location is required.'); ok = false; }
+
+      return ok;
+    }
+
+    function setErr(id, msg) {
+      const el = document.getElementById(id);
+      el.textContent = msg;
+      el.style.display = msg ? 'block' : 'none';
+    }
+
+    document.getElementById('contactForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      hideToasts();
+      if (!validate()) return;
+
+      const btn = document.getElementById('submitBtn');
+      document.getElementById('btnText').style.display = 'none';
+      document.getElementById('btnLoader').style.display = 'inline';
+      btn.disabled = true;
+
+      const payload = {
+        name: document.getElementById('name').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        location: document.getElementById('location').value.trim(),
+        message: document.getElementById('message').value.trim()
+      };
+
+      try {
+        const res = await fetch(`${API_BASE}/api/contact`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.ok) {
+          document.getElementById('contactForm').reset();
+          showToast('toast');
+        } else {
+          const data = await res.json().catch(() => ({}));
+          document.getElementById('errMsg').textContent = data.message || 'Server error. Please try again.';
+          showToast('toastErr');
+        }
+      } catch (err) {
+        document.getElementById('errMsg').textContent = 'Unable to reach server. Please try again.';
+        showToast('toastErr');
+      } finally {
+        document.getElementById('btnText').style.display = 'inline';
+        document.getElementById('btnLoader').style.display = 'none';
+        btn.disabled = false;
+      }
+    });
+
+    function showToast(id) {
+      const el = document.getElementById(id);
+      el.classList.add('show');
+      setTimeout(() => el.classList.remove('show'), 6000);
+    }
+    function hideToasts() {
+      document.getElementById('toast').classList.remove('show');
+      document.getElementById('toastErr').classList.remove('show');
+    }
+
+    // Phone: only allow digits
+    document.getElementById('phone').addEventListener('input', function() {
+      this.value = this.value.replace(/\D/g, '').slice(0, 10);
+    });
+  </script>
+</body>
+</html>

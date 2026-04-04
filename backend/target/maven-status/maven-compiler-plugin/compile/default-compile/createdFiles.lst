@@ -1,0 +1,10 @@
+com\greenleaf\paperplate\service\EmailService.class
+com\greenleaf\paperplate\exception\GlobalExceptionHandler.class
+com\greenleaf\paperplate\service\ContactService.class
+com\greenleaf\paperplate\config\AsyncConfig.class
+com\greenleaf\paperplate\controller\ContactController.class
+com\greenleaf\paperplate\model\Contact$ContactBuilder.class
+com\greenleaf\paperplate\repository\ContactRepository.class
+com\greenleaf\paperplate\PaperPlateApplication.class
+com\greenleaf\paperplate\dto\ContactRequest.class
+com\greenleaf\paperplate\model\Contact.class
